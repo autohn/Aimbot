@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>DXGI</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>DXGI</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DisplayManager.cpp">
+      <Filter>DXGI</Filter>
+    </ClCompile>
+    <ClCompile Include="DuplicationManager.cpp">
+      <Filter>DXGI</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputManager.cpp">
+      <Filter>DXGI</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>DXGI</Filter>
+    </ClCompile>
+    <ClCompile Include="DesktopDuplication.cpp" />
+    <ClCompile Include="BotManager.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="Bitmap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonTypes.h">
+      <Filter>DXGI</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayManager.h">
+      <Filter>DXGI</Filter>
+    </ClInclude>
+    <ClInclude Include="DuplicationManager.h">
+      <Filter>DXGI</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputManager.h">
+      <Filter>DXGI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>DXGI</Filter>
+    </ClInclude>
+    <ClInclude Include="BotManager.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="Bitmap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DXGI">
+      <UniqueIdentifier>{85945167-ac6b-42df-891a-c3496d9441a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
